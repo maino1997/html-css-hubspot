@@ -25,16 +25,23 @@ footer{
 .btn-orange{
     background-color: rgb(255, 94, 0);
     color: white;
+    padding: 10px 15px 10px 15px;
 }
 
 .btn-white{
     background-color: white;
     color: rgb(255, 94, 0);
     border: 1px solid rgb(255, 94, 0);
+    padding: 10px 15px 10px 15px;
 }
 
 p{
     margin: 20px 0 20px 0;
+}
+
+.content{
+    background-color: white;
+    border-radius: 10px;
 }
 
 .brd:nth-child(even) {
