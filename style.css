@@ -25,6 +25,7 @@ nav{
 footer{
     background-color: #2D3E50;
     position: relative;
+    color: white;
 }
 
 .bi-facebook{
@@ -82,7 +83,7 @@ p{
 
   footer li{
       margin: 15px 0 15px 0;
-      color: white;
+      font-size: 13px;
   }
 
   .footer-play{
@@ -114,6 +115,7 @@ p{
     border: 1px black solid;
     border-radius: 5px;
     margin: 0;
+    color: black;
 }
 }
 
@@ -168,4 +170,5 @@ p{
   .btn{
       width: 100%;
   }
+  
 }
