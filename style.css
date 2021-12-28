@@ -21,6 +21,7 @@ section{
 footer{
     background-color: rgb(97, 93, 93);
     position: relative;
+    color: white;
 }
 
 .bi-facebook{
@@ -76,6 +77,8 @@ p{
 
 
 /* DROPDOWN  */
+
+@media screen and (max-width: 992px){   
 .hid{
     display: none;
     position: absolute;
@@ -92,6 +95,7 @@ p{
     background-color: white;
     border: 1px black solid;
     border-radius: 5px;
+}
 }
 
 .uber:hover .hid-features , .uber:hover .hid-company , .uber:hover .hid-costumers , .uber:hover .hid-partners , .uber:hover .hid-tools{
