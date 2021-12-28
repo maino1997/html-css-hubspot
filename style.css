@@ -11,3 +11,11 @@
     width: 250px;
     height: 300px;
 }
+
+footer{
+    background-color: rgb(97, 93, 93);
+}
+
+.bi-facebook{
+    font-weight: 20px;
+}
