@@ -76,6 +76,10 @@ p{
       margin-top: 20px;
   }
 
+  .start li{
+      margin: 10px 0 10px 0;
+  }
+
   footer li{
       margin: 15px 0 15px 0;
       color: white;
@@ -127,6 +131,7 @@ p{
 
 .bi-check-circle-fill{
     color: rgb(255, 94, 0);
+    margin-right: 5px;
 }
 
 
