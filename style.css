@@ -9,12 +9,12 @@ nav{
 
 
 .start{
-    background-color: rgb(197, 191, 191);
+    background-color: #F5F8FA;
 }
 
 
 .statistic{
-    background-color: aquamarine;
+    background-color: #00B8A9;
 }
 
 .img-grow{
@@ -23,9 +23,8 @@ nav{
 }
 
 footer{
-    background-color: rgb(97, 93, 93);
+    background-color: #2D3E50;
     position: relative;
-    color: white;
 }
 
 .bi-facebook{
@@ -35,15 +34,15 @@ footer{
 /* UTILITIES  */
 
 .btn-orange{
-    background-color: rgb(255, 94, 0);
+    background-color: #FF7A59;
     color: white;
     padding: 10px 15px 10px 15px;
 }
 
 .btn-white{
     background-color: white;
-    color: rgb(255, 94, 0);
-    border: 1px solid rgb(255, 94, 0);
+    color: #FF7A59;
+    border: 1px solid #FF7A59;
     padding: 10px 15px 10px 15px;
 }
 
@@ -77,6 +76,17 @@ p{
       margin-top: 20px;
   }
 
+  footer li{
+      margin: 15px 0 15px 0;
+      color: white;
+  }
+
+  .footer-play{
+      width: 200px;
+      height: 60px;
+      margin: 20px 0 20px 0;
+  }
+
 
 
 
@@ -99,6 +109,7 @@ p{
     background-color: white;
     border: 1px black solid;
     border-radius: 5px;
+    margin: 0;
 }
 }
 
