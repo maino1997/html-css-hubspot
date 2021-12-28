@@ -1,3 +1,13 @@
+.start{
+    background-color: rgb(247, 241, 241);
+}
+
+
 .statistic{
     background-color: aquamarine;
+}
+
+.img-grow{
+    width: 250px;
+    height: 300px;
 }
