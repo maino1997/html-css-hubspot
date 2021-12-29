@@ -1,3 +1,5 @@
+/* GENERALS  */
+
 body{
     padding-top: 50px;
 }
@@ -7,10 +9,79 @@ section{
     padding: 80px 0 80px 0;
 }
 
+p{
+    margin: 20px 0 20px 0;
+}
 nav{
     z-index: 1;
 }
 
+footer{
+    background-color: #2D3E50;
+    position: relative;
+    color: white;
+    padding-bottom: 80px;
+}
+
+
+
+/* NAVBAR  */
+
+
+.nav-logo{
+height:50px;
+width: 50px;
+}
+
+nav .content{
+    font-size: 14px;
+}
+
+nav .software-card{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .content a{
+    text-decoration: none;
+    color: #1392AE;
+}
+
+nav .content h3{
+    font-size: 16px;
+}
+
+nav .content p{
+    margin: 0;
+}
+
+.nav-icon{
+    transform: scale(0.7);
+}
+
+
+.nav-scroll a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 13px;
+    height: 50px;
+}
+
+.resources-drop .dropdown-menu{
+    min-width: 600px;
+}
+
+.software-drop .dropdown-menu{
+    min-width: 800px;
+    background-color: #F5F8FA;
+}
+
+
+
+
+/* SECTION START  */
 
 
 .start{
@@ -20,6 +91,18 @@ nav{
 .start a{
     margin: 30px 0 10px 0;
 }
+
+.start li{
+    margin: 10px 0 10px 0;
+}
+
+.bi-check-circle-fill{
+    color: rgb(255, 94, 0);
+    margin-right: 5px;
+}
+
+
+/* SECTION STATISTIC  */
 
 
 .statistic{
@@ -31,12 +114,31 @@ nav{
     height: 300px;
 }
 
-footer{
-    background-color: #2D3E50;
-    position: relative;
-    color: white;
-    padding-bottom: 80px;
+
+
+
+/* FOOTER  */
+
+
+
+footer li{
+    margin: 15px 0 15px 0;
+    font-size: 13px;
 }
+
+.footer-play{
+    width: 200px;
+    height: 60px;
+    margin: 20px 0 20px 0;
+}
+
+.bar{
+    display: none;
+    width: 535px;
+    height: 1px;
+    background-color: white;
+  }
+
 
 footer .bi{
     font-size: 28px;
@@ -46,6 +148,9 @@ footer .bi{
 footer .social a{
     margin: 10px;
 }
+
+
+
 
 /* UTILITIES  */
 
@@ -64,9 +169,6 @@ footer .social a{
     padding: 10px 15px 10px 15px;
 }
 
-p{
-    margin: 20px 0 20px 0;
-}
 
 .content{
     background-color: white;
@@ -89,44 +191,20 @@ p{
     border-bottom: 1px solid;
     border-right: 1px solid;
     border-left: 0;
-  }
+}
 
-  .uber{
-      margin-top: 20px;
-  }
-
-  .start li{
-      margin: 10px 0 10px 0;
-  }
-
-  footer li{
-      margin: 15px 0 15px 0;
-      font-size: 13px;
-  }
-
-  .footer-play{
-      width: 200px;
-      height: 60px;
-      margin: 20px 0 20px 0;
-  }
+.uber{
+    margin-top: 20px;
+}
 
 
-  
-  .bar{
-      display: none;
-      width: 535px;
-      height: 1px;
-      background-color: white;
-    }
-    
-    
-    
-    /* DROPDOWN  */
-    
-    @media screen and (max-width: 992px){   
-        .hid{
-            display: none;
-            position: absolute;
+
+/* MEDIAQUERY  */
+
+@media screen and (max-width: 992px){   
+    .hid{
+        display: none;
+        position: absolute;
             left: 0;
             right: 0;
             bottom: 0;
@@ -143,77 +221,24 @@ p{
             margin: 0;
             color: black;
         }
+
+        .btn{
+            width: 100%;
+        }
+        
+        .nav-scroll{
+            display: none !important;
+        }
     }
     
-    .uber:hover .hid-features , .uber:hover .hid-company , .uber:hover .hid-costumers , .uber:hover .hid-partners , .uber:hover .hid-tools{
-        display: block;
-    }
+  
 
-    .resources-drop .dropdown-menu{
-        min-width: 600px;
-    }
-
-    .software-drop .dropdown-menu{
-        min-width: 800px;
-        background-color: #F5F8FA;
-    }
-
-
-    nav .content{
-        font-size: 14px;
-    }
-
-    nav .software-card{
-        height: 50px;
-        display: flex;
-        align-items: center;
-    }
-
-    nav .content a{
-        text-decoration: none;
-        color: #1392AE;
-    }
-
-    nav .content h3{
-        font-size: 16px;
-    }
-
-    nav .content p{
-        margin: 0;
-    }
-
-    .nav-icon{
-        transform: scale(0.7);
-    }
+    
 
     
     
-    
-    .nav-logo{
-    height:50px;
-    width: 50px;
-}
-
-.bi-check-circle-fill{
-    color: rgb(255, 94, 0);
-    margin-right: 5px;
-}
-
-
-/* .start li::before{
-    content: "";
-    background: url("//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
-    width: 18px;
-    height: 18px;
-    display: inline-block;
-    margin-bottom: -0.3125rem;
-    margin-right: 0.625rem;
-} */
-
-
-
-@media screen and (min-width: 992px){
-    .brd:nth-child(1) , .brd:nth-child(2) , .brd:nth-child(3) , .brd:nth-child(4){
+ @media screen and (min-width: 992px){
+        .brd:nth-child(1) , .brd:nth-child(2) , .brd:nth-child(3) , .brd:nth-child(4){
         border-top: 0;
     }
     
@@ -228,7 +253,7 @@ p{
     .bar{
         display: inline-block;
     } 
-
+    
     footer .col-lg-5{
         border-right: 1px white solid;
     }
@@ -237,30 +262,13 @@ p{
 
 
 
-@media screen and (max-width: 991px){
-  .btn{
-      width: 100%;
-  }
-  
-}
-
-@media screen and (max-width: 991px){
-    .nav-scroll{
-        display: none !important;
-    }
-}
-
-
-.nav-scroll a{
-    color: black;
-    text-decoration: none;
-    margin: 20px;
-    font-size: 13px;
-    height: 50px;
-}
 
 /* HOVER EFFECTS  */
 
+
+.uber:hover .hid-features , .uber:hover .hid-company , .uber:hover .hid-costumers , .uber:hover .hid-partners , .uber:hover .hid-tools{
+    display: block;
+}
 
 .content:hover{
     transform: scale(1.02);
