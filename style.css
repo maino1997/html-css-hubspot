@@ -70,11 +70,11 @@ nav .content p{
 }
 
 .resources-drop .dropdown-menu{
-    min-width: 600px;
+    width: 600px;
 }
 
 .software-drop .dropdown-menu{
-    min-width: 800px;
+    width: 800px;
     background-color: #F5F8FA;
 }
 
@@ -229,6 +229,14 @@ footer .social a{
         .nav-scroll{
             display: none !important;
         }
+
+        .software-drop .dropdown-menu{
+            width: 450px;
+            height: 650px !important;
+            background-color: #F5F8FA;
+            overflow: auto;
+        }
+        
     }
     
   
