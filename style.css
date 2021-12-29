@@ -256,15 +256,31 @@ footer .social a{
         }
 
         .software-drop .dropdown-menu{
-            width: 460px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: auto;
+            width: auto;
+
+            /* width: 460px;
             height: 650px !important;
             background-color: #F5F8FA;
-            overflow: auto;
+            overflow: auto; */
         }
 
         .resources-drop .dropdown-menu{
-            width: 460px;
-            overflow: hidden;
+
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: auto;
+            width: auto;
+            /* width: 460px;
+            overflow: hidden; */
         }
         
     }
