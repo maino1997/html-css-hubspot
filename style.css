@@ -146,6 +146,10 @@ p{
         display: block;
     }
 
+    .software-drop .dropdown-menu{
+        min-width: 600px;
+    }
+
     
     
     
