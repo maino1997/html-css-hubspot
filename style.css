@@ -178,6 +178,12 @@ p{
   
 }
 
+@media screen and (max-width: 991px){
+    .nav-scroll{
+        display: none !important;
+    }
+}
+
 
 .nav-scroll a{
     color: black;
