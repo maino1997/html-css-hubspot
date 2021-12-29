@@ -18,7 +18,7 @@ nav{
 }
 
 .start a{
-    margin: 60px 0 20px 0;
+    margin: 30px 0 10px 0;
 }
 
 
@@ -53,12 +53,14 @@ footer .social a{
     background-color: #FF7A59;
     color: white;
     padding: 8px 15px 8px 15px;
+    transition: 0.2s linear;
 }
 
 .btn-white{
     background-color: white;
     color: #FF7A59;
     border: 1px solid #FF7A59;
+    transition: 0.2s linear;
     padding: 10px 15px 10px 15px;
 }
 
@@ -69,6 +71,7 @@ p{
 .content{
     background-color: white;
     border-radius: 10px;
+    transition: 0.2s linear;
 }
 
 .brd:nth-child(even) {
@@ -146,7 +149,7 @@ p{
         display: block;
     }
 
-    .software-drop .dropdown-menu{
+    .resources-drop .dropdown-menu{
         min-width: 600px;
     }
 
@@ -222,3 +225,26 @@ p{
     font-size: 13px;
     height: 50px;
 }
+
+/* HOVER EFFECTS  */
+
+
+.content:hover{
+    transform: scale(1.02);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.btn-orange:hover{
+    background-color: #ffbcac;
+    transform: scale(0.95);
+}
+
+.btn-white:hover{
+    background-color: #fff1ee;
+    transform: scale(0.95);
+}
+
+header a:hover , footer a:hover{
+    text-decoration: underline;
+}
+
