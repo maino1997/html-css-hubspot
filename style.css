@@ -236,6 +236,11 @@ footer .social a{
             background-color: #F5F8FA;
             overflow: auto;
         }
+
+        .resources-drop .dropdown-menu{
+            width: 450px;
+            overflow: hidden;
+        }
         
     }
     
