@@ -202,6 +202,14 @@ footer .social a{
     border-left: 0;
 }
 
+.brd:nth-child(1) , .brd:nth-child(2) {
+    border-top: 0;
+}
+
+.brd:nth-child(7) , .brd:nth-child(8){
+    border-bottom: 0;
+}
+
 .uber{
     margin-top: 20px;
 }
@@ -290,6 +298,7 @@ footer .social a{
 
 .uber:hover .hid-features , .uber:hover .hid-company , .uber:hover .hid-costumers , .uber:hover .hid-partners , .uber:hover .hid-tools{
     display: block;
+    cursor: pointer;
 }
 
 .content:hover{
