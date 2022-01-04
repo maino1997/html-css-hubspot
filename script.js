@@ -9,3 +9,15 @@ window.onscroll = function() {
       document.getElementById("nav-scroll").style.display = "initial";
     }
   }
+
+
+
+//  DELETE USELESS PROPERTIES 
+
+  const features = document.getElementById("dropdownMenuButton");
+  const featMenu = document.getElementById("features-menu");
+
+  features.addEventListener("click" , function(){
+   featMenu.style.transform = "none";
+   featMenu.style = "position:absolute; left:0px; top:0px right:0px bottom: 0px;";
+  });

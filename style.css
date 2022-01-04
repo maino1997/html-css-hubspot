@@ -166,6 +166,15 @@ footer .social a{
     margin: 10px;
 }
 
+#features-menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2D3E50;
+}
+
 
 
 
@@ -222,6 +231,13 @@ footer .social a{
     margin-top: 20px;
 }
 
+.footer-submenu{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    padding: 20px 15px 20px 15px;
+}
+
 
 
 /* MEDIAQUERY  */
@@ -271,14 +287,7 @@ footer .social a{
         }
 
         .resources-drop .dropdown-menu{
-
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            overflow: auto;
-            width: auto;
+            
             /* width: 460px;
             overflow: hidden; */
         }
